@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url('background.jpg');
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+}
+.cont{
+    float:right;
+    margin-top:200px;
+    margin-right:200px;
+}
+.cont label{
+    font-size: 20px;
+    font-family: "verdana","sans-serif";
+}
+.cont input{
+    width:250px;
+    padding:10px;
+    border:1px solid #ccc;
+    margin:0;
+    display: inline-block;
+    border-radius:9px;
+    box-sizing: border-box;
+}
+.submit{
+    float:right;
+    margin-right:-170px;
+    margin-top:550px;
+    border-radius: 9px;
+    border:none;
+    padding:15px 32px;
+    text-align:center;
+    font-size:16px;
+
+}
+.tagline{
+    position: absolute;
+    width:1200px;
+    margin-left:0;
+    margin-top:0;
+}
+h1{
+    color:black;
+    font-size: 30px;
+    font-family: "verdana","sans-serif";
+    margin-left:200px;
+    margin-top:275px;
+}
+pre{
+    font-size:20px;
+    font-family: "verdana","sans-serif";
+    margin-left:70px;
+    margin-top:50px;
+  
+}
+.nav-menu{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    justify-items: right;
+}
+.nav-menu li{
+    display:inline-block;
+}
+.nav-menu li a{
+    
+    color:black;
+    padding:5px 20px 5px 20px;
+    margin-right:100px;
+    font-family: "verdana","sans-serif";
+    font-size: 20px;
+}
+.nav-menu li a:hover{
+    background-color: white;
+}
+.submit:hover{
+    background-color: green;
+}
